@@ -1,0 +1,4 @@
+flask
+instaloader
+requests
+moviepy
