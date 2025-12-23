@@ -2,3 +2,4 @@ flask
 instaloader
 requests
 moviepy
+gunicorn
