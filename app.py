@@ -210,6 +210,22 @@ HTML_TEMPLATE = '''
         
         #download-section { display: none; margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px; }
         .preview-img { width: 100%; border-radius: 8px; margin-bottom: 10px; }
+
+         .footer {
+            margin-top: 25px;
+            font-size: 13px;
+            color: #888;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+        .footer a {
+            color: #E1306C;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -238,6 +254,9 @@ HTML_TEMPLATE = '''
         <img id="previewImg" class="preview-img" src="">
         <h4 id="videoTitle" style="margin: 0 0 10px 0; font-size: 14px; color: #555;"></h4>
         <button class="btn" id="finalDownloadBtn" style="background-color: #4CAF50;">Download Now</button>
+    </div>
+    <div class="footer">
+        Created with ❤️ by <a href="https://github.com/NOORBAJI55" target="_blank">Shaik Noor Baji</a>
     </div>
 </div>
 
@@ -331,7 +350,6 @@ HTML_TEMPLATE = '''
             status.innerText = "Error Downloading File";
         });
     });
-</script>
 
 </body>
 </html>
